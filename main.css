@@ -1,0 +1,146 @@
+*{
+    text-transform: capitalize;
+}
+p,
+label,
+input,
+span,
+button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+ul{
+    list-style: none;
+}
+.nav-link{
+    font-size: 20px;
+    background-color: black;
+    color: white !important;
+}
+.active{
+    background-color: white;
+    color: black !important;
+    font-weight: 600;
+    letter-spacing: 7px;
+    border: 3px solid black;
+}
+.obj{
+    object-fit: contain;
+}
+.best{
+    height: 200px;
+}
+.card{
+    border-width: 2px;
+    border-color: black;   
+}
+.card h2{
+    font-size: 22px;
+}
+.nav-foot{
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.bg-About{
+    height: 25vh;
+    background-image: url('../img/DALL·E\ 2024-11-30\ 23.56.48\ -\ A\ wide\ image\ of\ a\ modern\,\ professional\ workspace\ representing\ innovation\ and\ creativity.\ The\ space\ features\ a\ sleek\,\ minimalist\ design\ with\ large\ wind.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 10px;
+}
+.h-50px{
+    height: 200px;
+}
+.iconMis{
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px 10px;
+    color: white;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.nav-link{
+    font-size: 20px;
+    background-color: black;
+    color: white !important;
+}
+.active{
+    background-color: white;
+    color: black !important;
+    font-weight: 600;
+    letter-spacing: 7px;
+    border: 3px solid black;
+}
+.obj{
+    object-fit: contain;
+}
+.best{
+    height: 300px;
+}
+.card{
+    border-width: 2px;
+    border-color: black;
+}
+.titleShop h2{
+    font-size: 70px;
+}
+.titleShop h4{
+    border: 2px solid black;
+    padding: 10px;
+}
+.getImgApi{
+    height: 250px;
+    transition: all .5s;
+    transform: scale(.5);
+}
+.getImgApi:hover{
+    transform: scale(1.0);
+}
+.card-first{
+    height: 100%;
+}
+.boxImg{
+    overflow: hidden;
+}
+.non{
+    color: gray;
+    font-size: 33px;
+}
+.form{
+    border: 1px black solid;
+    padding: 15px;
+    border-radius: 25px;
+}
+.overveiw{
+    background-color: #fff;
+    position: absolute;
+    padding: 2rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 100%;
+    transform: translateY(101%);
+    overflow-y: auto;
+    transition: transform 0.3s ease-in;
+}
+.hovCard:hover .overveiw {
+    transform: translateY(0);
+}
