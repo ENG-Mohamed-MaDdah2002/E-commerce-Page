@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A general website to provide all services and products">
+  <meta name="keywords" content="Clients,  a store,  sales,  shopping,  clothes,  products,  tools,  Electrical appliances,   His shoes,  Men's accessories,  Women's accessories,  sportswear,  A general website to provide all services and products">
+  <title>Login | Clientela</title>
+  <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./style/lib/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="row border-bottom border-2 border-black align-items-center">
+            <div class="col-lg-6">
+              <h3 id="timeDate">time and date</h3>
+            </div>
+            <div class="col-lg-6">
+                <div class="icon ms-auto w-25">
+                    <span class="mx-2"><a href="./register.html"><i class="fa-solid fa-user"></i></a></span>
+                    <span class="mx-2"><a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">Store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-5" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./shop.html">Shop</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section>
+      <div class="container">
+        <div class="row vh-100 justify-content-center align-content-center">
+          <div class="col-lg-5">
+            <div class="w-100 h-100 form">
+              <form action="#">
+                <h3>Login</h3>
+
+                <label for="Username" class="form-label mt-2">Username</label>
+                <input type="text" name="Username" class="form-control mb-3" id="Username">
+  
+                <label for="Password" class="form-label">Password</label>
+                <input type="password" name="Password" class="form-control" id="Password">
+                <input type="button" class=" btn btn-dark text-light mt-2" value="sign in">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./script/main.js"></script>
+  <script src="./script/bootstrap.bundle.min.js"></script>
+</body>
+</html>
